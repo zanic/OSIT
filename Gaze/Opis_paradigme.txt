@@ -1,0 +1,51 @@
+Pauza prije poèetka svake paradigme u trajanju 5 sekundi
+Pauza prije pojavljivanja svakog križiæa u trajanju 0.5 sekundi
+%%%%%%% Paradigma 1
+
+60 razlièit parova slika u trajanju od 3 sekunde
+
+ category1 0 :  neutral vs. neutral
+ category1 1 :  neutral vs. happy
+ category1 -1 : neutral vs. threat
+
+ orientation1 1 :   desno
+ orientation1 -1 :  lijevo
+
+ crossTimes1 : vremena pojavljivanje križiæa (traje do pojavljivanja slike (0.5s))
+ trailStartTimes1 : poèetak prikazivanja para slika
+ trailEndTimes1 : kraj prikazivanja para slika
+
+%%%%%%% Paradigma 2
+
+60 razlièitih parova videa u trajanju od 1 sekunde
+
+ category2 1 : happy vs fear
+ category2 2 : happy vs anger
+ category2 3 : happy vs sad
+
+ orientation1 1 :   desno
+ orientation1 -1 :  lijevo
+
+ crossTimes2 : vremena pojavljivanje križiæa (traje do pojavljivanja slike (0.5s))
+ trailStartTimes2 : poèetak prikazivanja para videa
+ trailEndTimes2 : kraj prikazivanja para videa
+
+%%%%%%% Paradigma 3
+
+Lokacije pojedinih emocija za svaki od 8 relevantnih triala
+ happyLocations
+ sadLocations
+ fearLocations
+ neutralLocations
+
+Lokacije (kvadranti) su:
+ 1 - gore lijevo
+ 2 - gore desno
+ 3 - dolje lijevo
+ 4 - dolje desno
+
+ controlTrials3 : redni brojevi kontrolnih triala sa nasumiènim emocijama
+
+ crossTimes3 : vremena pojavljivanje križiæa (traje do pojavljivanja slike (0.5s))
+ trailStartTimes3 : poèetak prikazivanja para slika
+ trailEndTimes3 : kraj prikazivanja para slika
